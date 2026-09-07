@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tilak Sharma — Bioinformatics</title>
+<style>
+:root{--ink:#0f2231;--mid:#5b6b78;--line:#dfe5ea;--accent:#0d4f73;--warn:#b5462b;--bg:#fff}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);background:var(--bg)}
+.wrap{max-width:820px;margin:0 auto;padding:56px 24px 80px}
+h1{font-size:30px;margin:0 0 4px;letter-spacing:-.4px}
+.sub{color:var(--mid);font-size:17px;margin:0 0 22px}
+.links a{color:var(--accent);text-decoration:none;border-bottom:1px solid #bcd4e2;margin-right:18px;font-size:15px}
+.links a:hover{border-bottom-color:var(--accent)}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:1.4px;color:var(--mid);
+margin:44px 0 14px;padding-bottom:7px;border-bottom:1px solid var(--line);font-weight:600}
+.lede{font-size:17px;border-left:3px solid var(--accent);padding:2px 0 2px 16px;margin:26px 0;color:#1d3040}
+.proj{margin:0 0 30px;scroll-margin-top:20px}
+.proj h3{font-size:17px;margin:0 0 3px}
+.proj h3 a{color:var(--accent);text-decoration:none}
+.proj h3 a:hover{text-decoration:underline}
+.q{color:var(--mid);font-size:15px;margin:0 0 8px;font-style:italic}
+.proj p{margin:0 0 8px}
+.tags span{display:inline-block;background:#eef3f6;color:#3d5364;border-radius:11px;
+padding:2px 9px;font-size:12px;margin:0 5px 5px 0}
+figure{margin:16px 0 0}
+figure img{width:100%;border:1px solid var(--line);border-radius:5px;display:block}
+figcaption{color:var(--mid);font-size:13.5px;margin-top:7px}
+table{width:100%;border-collapse:collapse;font-size:14.5px;margin:6px 0 0}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--mid);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.6px}
+td.n{font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.foot{color:var(--mid);font-size:14px;margin-top:52px;padding-top:18px;border-top:1px solid var(--line)}
+code{background:#f2f5f7;padding:1px 5px;border-radius:3px;font-size:13.5px}
+</style></head><body><div class="wrap">
+
+<h1>Tilak Sharma</h1>
+<p class="sub">Bioinformatics analyst — computational drug discovery &amp; reproducible omics pipelines</p>
+<p class="links">
+<a href="https://github.com/TilakSharma07">GitHub</a>
+<a href="https://www.linkedin.com/in/tilak-sharma-b059291a7">LinkedIn</a>
+<a href="mailto:tilaksharma273@gmail.com">Email</a>
+<a href="https://github.com/TilakSharma07/inha-tb/blob/main/docs/METHODS.md">Methods write-up</a>
+</p>
+
+<p class="lede">I try to break a result before I report it. Every project below states its
+controls first — what the negative control was, where the leakage could hide, what the number
+looks like once you close that door. Usually the honest number is lower, and that is the point.</p>
+
+<h2>Selected work</h2>
+
+<div class="proj" id="inha-tb">
+<h3><a href="https://github.com/TilakSharma07/inha-tb">inha-tb</a></h3>
+<p class="q">Can a QSAR model trained on public InhA data pick new chemotypes — or is it
+just recognising analogues it has already seen?</p>
+<p>2107 curated bioactivity records, 1417 unique molecules, across the InhA
+enzyme and <em>M. tuberculosis</em> whole-cell assays. Three model families, two split
+strategies. Docking validated first by redocking the co-crystallised ligand into
+4TZK — RMSD 0.23 Å — because a docking score means nothing if the pose
+protocol cannot reproduce a known pose.</p>
+<table><tr><th>Held-out ROC-AUC</th><th class="n">scaffold split</th><th class="n">random split</th><th class="n">inflation</th></tr>
+<tr><td>InhA enzyme (XGBoost)</td><td class="n">0.837</td><td class="n">0.921</td><td class="n">+0.084</td></tr>
+<tr><td><em>M. tb</em> whole-cell (RF)</td><td class="n">0.841</td><td class="n">0.911</td><td class="n">+0.07</td></tr></table>
+<p style="font-size:14.5px;color:#5b6b78;margin-top:9px">Across all six model×dataset
+combinations a random split overstates ROC-AUC by 0.069–0.119
+(median 0.08). The cause is concrete: 29 and 89
+Bemis–Murcko scaffolds appear on both sides of the random split. Every number quoted
+outside the full table is the scaffold-split one.</p>
+<figure><img src="figures/fig5_leakage.png" alt="Scaffold-split test molecules are singletons; ROC-AUC by test-set composition">
+<figcaption>Why the gap exists. <b>a</b> Every scaffold-split test molecule is a singleton —
+no scaffold-mate anywhere in training. <b>b</b> Same model, same training set: accuracy falls
+monotonically as the test set loses its analogues. The random split's advantage is the
+analogues, not better learning.</figcaption></figure>
+<figure><img src="figures/fig2_qsar_validation.png" alt="ROC and PR curves, model comparison, accuracy vs chemical distance, enzyme-to-cell correlation">
+<figcaption>Full validation panel: ROC and precision–recall under both splits, accuracy
+binned by Tanimoto distance to training, and enzyme potency vs whole-cell kill
+(Spearman ρ = 0.91, n = 35) — the assay-translation check that justifies
+modelling the two endpoints together.</figcaption></figure>
+<p class="tags"><span>QSAR</span><span>scaffold split</span><span>docking</span>
+<span>RDKit</span><span>XGBoost</span><span>M. tuberculosis</span></p>
+</div>
+
+<div class="proj" id="omics-ml-leakage-audit">
+<h3><a href="https://github.com/TilakSharma07/omics-ml-leakage-audit">omics-ml-leakage-audit</a></h3>
+<p class="q">How much does each cross-validation leak actually inflate a reported AUC?</p>
+<p>Four protocols — leaky feature selection, sample-level splits on patient-clustered data,
+preprocessing before the split, and a clean nested pipeline — run over three tasks and three
+public lung-cancer cohorts. The point is not that leakage exists; it is the size of the
+effect, measured per protocol, so a reviewer can tell which shortcut costs what.</p>
+<p class="tags"><span>cross-validation</span><span>data leakage</span><span>scikit-learn</span>
+<span>nested CV</span></p>
+</div>
+
+<div class="proj" id="clinvar-vus-audit">
+<h3><a href="https://github.com/TilakSharma07/clinvar-vus-audit">clinvar-vus-audit</a></h3>
+<p class="q">How do variants of uncertain significance actually get resolved?</p>
+<p>Two ClinVar releases 19 months apart, joined on variant identity, to measure which VUS
+move and in which direction. A reclassification rate is only interpretable against the
+denominator of variants that had the opportunity to move — so that denominator is
+constructed explicitly rather than assumed.</p>
+<p class="tags"><span>ClinVar</span><span>variant interpretation</span><span>clinical genomics</span></p>
+</div>
+
+<div class="proj" id="protein-domain-burden">
+<h3><a href="https://github.com/TilakSharma07/protein-domain-burden">protein-domain-burden</a></h3>
+<p class="q">Are pathogenic missense variants enriched inside annotated conserved domains?</p>
+<p>ClinVar missense variants mapped onto InterPro domain boundaries. The enrichment is
+tested against a length-matched background, because domains are not a random slice of the
+protein and an unmatched comparison would find enrichment whether or not it is there.</p>
+<p class="tags"><span>InterPro</span><span>ClinVar</span><span>enrichment testing</span></p>
+</div>
+
+<div class="proj" id="nf-fastq-qc">
+<h3><a href="https://github.com/TilakSharma07/nf-fastq-qc">nf-fastq-qc</a></h3>
+<p class="q">A QC pipeline that fails loudly instead of producing a plausible-looking report.</p>
+<p>Nextflow, nf-core conventions, 42 tests covering the failure modes that
+matter — truncated reads, mismatched pair counts, empty inputs — because a QC pipeline
+that silently passes bad data is worse than no pipeline.</p>
+<p class="tags"><span>Nextflow</span><span>nf-core</span><span>pytest</span><span>containers</span></p>
+</div>
+
+<h2>Also on GitHub</h2>
+<p style="font-size:15px;color:#3d5364">
+<a href="https://github.com/TilakSharma07/rnaseq-de-GSE60450" style="color:var(--accent)">rnaseq-de-GSE60450</a> ·
+<a href="https://github.com/TilakSharma07/scRNAseq-PBMC-Analysis" style="color:var(--accent)">scRNAseq-PBMC-Analysis</a> ·
+<a href="https://github.com/TilakSharma07/16s-amplicon-report" style="color:var(--accent)">16s-amplicon-report</a> ·
+<a href="https://github.com/TilakSharma07/inha-ai-docking-benchmark" style="color:var(--accent)">inha-ai-docking-benchmark</a> ·
+<a href="https://github.com/TilakSharma07/oss-contributions" style="color:var(--accent)">oss-contributions</a>
+— upstream work on nf-core/tools and Galaxy training material.</p>
+
+<h2>Background</h2>
+<p style="font-size:15.5px">M.Sc. Botany. Research internship at Inha University (South Korea)
+on the computational TB work above. nf-core member. Based in Baran, Rajasthan, India (IST).</p>
+
+<p class="foot">Every number on this page is generated from the source data in the linked
+repositories — the <code>inha-tb</code> figures and table come from
+<code>docs/facts.json</code>, which the analysis writes and the write-up reads. No number
+here is typed by hand.</p>
+
+</div></body></html>
