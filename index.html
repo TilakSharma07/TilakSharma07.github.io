@@ -76,6 +76,12 @@ analogues, not better learning.</figcaption></figure>
 binned by Tanimoto distance to training, and enzyme potency vs whole-cell kill
 (Spearman ρ = 0.91, n = 35) — the assay-translation check that justifies
 modelling the two endpoints together.</figcaption></figure>
+<figure><img src="figures/fig1_data_and_target.png" alt="Curation cascade from 4,450 ChEMBL records to 1,417 unique molecules; potency distributions; replicate-assay noise floor; InhA structure resolutions; binding-pocket contacts; docked subset chemistry">
+<figcaption>The dataset before any model. <b>a</b> 4,450 retrieved records reduce to 1,417 unique molecules once data validity, exact relations and a potency endpoint are required. <b>c</b> Replicate assays of the same molecule disagree by a median 0.23 log units — that is the floor any model error is measured against. <b>d</b> 4TZK (1.62 Å) chosen as receptor from ten screened structures.</figcaption></figure>
+<figure><img src="figures/fig3_docking.png" alt="Docking score versus measured potency, ROC curves, enrichment factors, and the score-size correlation for InhA">
+<figcaption>Docking, tested rather than assumed. Score barely tracks potency (<b>b</b>); ROC-AUC reaches 0.65 on the enzyme and 0.58 whole-cell (<b>c</b>); enrichment stays below its attainable ceiling (<b>d</b>); and the score rewards molecular weight (Spearman ρ = −0.41, <b>f</b>). On the same molecules, neither fitted, QSAR reaches 0.83 and 0.84 (<b>e</b>). Reported because it is the result.</figcaption></figure>
+<figure><img src="figures/fig4_reproducibility.png" alt="Re-run comparison of ROC-AUC inflation per model, and metric drift across dependency versions">
+<figcaption>Reproducibility as a measurement, not a claim. <b>a</b> The random-versus-scaffold gap reproduces on an independent re-run for every model. <b>b</b> Dependency-version drift stays under the 0.02 gate for ranking metrics; threshold metrics drift more, and varying both at once understates it.</figcaption></figure>
 <p class="tags"><span>QSAR</span><span>scaffold split</span><span>docking</span>
 <span>RDKit</span><span>XGBoost</span><span>M. tuberculosis</span></p>
 </div>
