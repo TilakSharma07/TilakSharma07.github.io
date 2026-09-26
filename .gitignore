@@ -7,3 +7,9 @@ check_site.py
 
 # internal verification notes
 NOTES.internal.md
+
+# local publish wrapper (runs the gate before pushing)
+publish.sh
+
+# local command reference
+WEBSITE_COMMANDS.md
