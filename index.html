@@ -2,6 +2,7 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Tilak Sharma — Bioinformatics</title>
+<meta name="description" content="Bioinformatics analyst. Reproducible omics pipelines in Nextflow, Python and R; computational drug discovery. Merged contributor to the Galaxy Project, nf-core/tools and EDAM Ontology.">
 <style>
 :root{--ink:#0f2231;--mid:#5b6b78;--line:#dfe5ea;--accent:#0d4f73;--warn:#b5462b;--bg:#fff}
 *{box-sizing:border-box}
@@ -40,6 +41,7 @@ code{background:#f2f5f7;padding:1px 5px;border-radius:3px;font-size:13.5px}
 <a href="https://github.com/TilakSharma07">GitHub</a>
 <a href="https://www.linkedin.com/in/tilak-sharma-b059291a7">LinkedIn</a>
 <a href="mailto:tilaksharma273@gmail.com">Email</a>
+<a href="Tilak_Sharma_Resume.pdf">CV (PDF)</a>
 <a href="https://github.com/TilakSharma07/inha-tb/blob/main/docs/METHODS.md">Methods write-up</a>
 </p>
 
@@ -129,18 +131,71 @@ that silently passes bad data is worse than no pipeline.</p>
 <p class="tags"><span>Nextflow</span><span>nf-core</span><span>pytest</span><span>containers</span></p>
 </div>
 
+<h2 id="upstream">Upstream contributions</h2>
+<p class="lede">The projects above are my own work: verifiable, but self-reported. These
+were judged by someone else.</p>
+
+<div class="proj">
+<h3><a href="https://github.com/galaxyproject/galaxy/pull/23338">Galaxy core — duplicated loading indicator <span style="color:#1a7f37">&#183; merged</span></a></h3>
+<p class="q">Two loading animations rendered at once. Which component owned the ellipsis?</p>
+<p>Traced to the Vue.js <code>LoadingSpan</code> component, which appended an animated
+ellipsis that callers were also supplying. I audited all 17 call sites referencing the
+affected markup before proposing anything, because the fix had to leave the rendered
+text unchanged for every one of them. Replacing the animation with static text leaves a
+single indicator. Approved by a maintainer and merged into Galaxy's <code>dev</code>
+branch, closing
+<a href="https://github.com/galaxyproject/galaxy/issues/14275" style="color:var(--accent)">issue #14275</a>.</p>
+<p class="tags"><span>Vue.js</span><span>Galaxy</span><span>front-end</span><span>merged upstream</span></p>
+</div>
+
+<div class="proj">
+<h3><a href="https://github.com/galaxyproject/training-material/pull/7093">Galaxy Training Network — a linter that could never fire <span style="color:#1a7f37">&#183; approved</span></a></h3>
+<p class="q">The citation check reported clean on every tutorial. Was it actually checking?</p>
+<p>GTN:004's PubMed regex contained a doubled slash, so it had never matched a real
+link. The check was structurally incapable of failing. Measured before proposing a fix:
+47 legacy-host and 3 modern-host links across 23 of 547 tutorials went unreported. Filed
+as <a href="https://github.com/galaxyproject/training-material/issues/7092" style="color:var(--accent)">issue #7092</a>
+with a 16-test Ruby suite; the patch is approved.</p>
+<p class="tags"><span>Ruby</span><span>regex</span><span>linting</span><span>test coverage</span></p>
+</div>
+
+<div class="proj">
+<h3><a href="https://github.com/nf-core/tools/pull/4469">nf-core/tools — ontology lookup built on one property <span style="color:var(--mid)">&#183; open</span></a></h3>
+<p class="q">Module annotation wrote empty EDAM terms where a term existed. Why?</p>
+<p><code>load_edam()</code> built its map from a single column and held 67 extension
+keys, so a missing key and a missing concept were indistinguishable — and a failed
+download looked the same as both. Widening the lookup to labels and synonyms takes it
+from 67 to 798 keys and recovers 513 channel elements across 184 modules. Filed as
+<a href="https://github.com/nf-core/tools/issues/4468" style="color:var(--accent)">issue #4468</a> with a 12-test pytest
+suite; the pull request is open for review.</p>
+<p class="tags"><span>Python</span><span>nf-core</span><span>ontology</span><span>pytest</span></p>
+</div>
+
+<div class="proj">
+<h3><a href="https://github.com/edamontology/edamontology/issues/958">EDAM Ontology — the coverage gap underneath it</a></h3>
+<p class="q">Chasing the nf-core defect: was the tooling wrong, or the ontology incomplete?</p>
+<p>Both. EDAM records a file extension for only 61 of 612 live format concepts, and
+downstream tooling reads only that property. 74 tabix-index elements carry no annotation
+because EDAM holds two competing non-obsolete concepts for the same artefact. The 6
+proposed extension values come from what module authors independently hand-wrote, not
+from assertion — the method reproduces EDAM's own curation on every extension it already
+records.</p>
+<p class="tags"><span>ontology curation</span><span>evidence-based proposal</span></p>
+</div>
+
 <h2>Also on GitHub</h2>
 <p style="font-size:15px;color:#3d5364">
 <a href="https://github.com/TilakSharma07/rnaseq-de-GSE60450" style="color:var(--accent)">rnaseq-de-GSE60450</a> ·
 <a href="https://github.com/TilakSharma07/scRNAseq-PBMC-Analysis" style="color:var(--accent)">scRNAseq-PBMC-Analysis</a> ·
 <a href="https://github.com/TilakSharma07/16s-amplicon-report" style="color:var(--accent)">16s-amplicon-report</a> ·
 <a href="https://github.com/TilakSharma07/inha-ai-docking-benchmark" style="color:var(--accent)">inha-ai-docking-benchmark</a> ·
+<a href="https://github.com/TilakSharma07/ont-amr-nf" style="color:var(--accent)">ont-amr-nf</a> ·
 <a href="https://github.com/TilakSharma07/oss-contributions" style="color:var(--accent)">oss-contributions</a>
 — upstream work on nf-core/tools and Galaxy training material.</p>
 
 <h2>Background</h2>
 <p style="font-size:15.5px">M.Sc. Botany. Research internship at Inha University (South Korea)
-on the computational TB work above. nf-core member. Based in Baran, Rajasthan, India (IST).</p>
+on the computational TB work above. Member of the <a href="https://github.com/nf-core" style="color:var(--accent)">nf-core</a> GitHub organisation. Based in Baran, Rajasthan, India (IST).</p>
 
 <p class="foot">Every number on this page is generated from the source data in the linked
 repositories — the <code>inha-tb</code> figures and table come from

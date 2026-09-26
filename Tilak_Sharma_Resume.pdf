@@ -1,0 +1,353 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [6 0 R 8 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 15195 >>
+stream
+BT /F2 15.50 Tf 45.00 778.39 Td (Tilak Sharma) Tj ET
+BT /F1 9.60 Tf 45.00 766.79 Td (Bioinformatics Analyst | Computational Drug Discovery | Reproducible Omics Pipelines) Tj ET
+BT /F1 8.80 Tf 45.00 756.19 Td (Baran, Rajasthan, India | +91 90246 28727 | tilaksharma273@gmail.com) Tj ET
+BT /F1 8.80 Tf 45.00 745.79 Td (linkedin.com/in/tilak-sharma-b059291a7 | github.com/TilakSharma07) Tj ET
+BT /F2 10.20 Tf 45.00 730.99 Td (PROFESSIONAL SUMMARY) Tj ET
+45 727.99 m 550.28 727.99 l 0.6 w S
+BT /F1 9.40 Tf 45.00 715.19 Td (Bioinformatics analyst who ships analysis code together with the checks that decide whether a result survives. M.Sc.) Tj ET
+BT /F1 9.40 Tf 45.00 703.59 Td (Botany with reproducible Nextflow, Python and R pipelines across bulk RNA-seq, single-cell, variant interpretation and) Tj ET
+BT /F1 9.40 Tf 45.00 691.99 Td (structure-based screening, each published with a test suite and negative controls.) Tj ET
+BT /F2 10.20 Tf 45.00 674.59 Td (TECHNICAL SKILLS) Tj ET
+45 671.59 m 550.28 671.59 l 0.6 w S
+BT /F2 9.00 Tf 45.00 659.19 Td (Programming:) Tj ET
+BT /F1 9.00 Tf 109.01 659.19 Td (Python,) Tj ET
+BT /F1 9.00 Tf 142.03 659.19 Td (R,) Tj ET
+BT /F1 9.00 Tf 153.53 659.19 Td (Bash,) Tj ET
+BT /F1 9.00 Tf 179.05 659.19 Td (SQL) Tj ET
+BT /F2 9.00 Tf 45.00 648.59 Td (Workflows) Tj ET
+BT /F2 9.00 Tf 93.01 648.59 Td (&) Tj ET
+BT /F2 9.00 Tf 102.01 648.59 Td (DevOps:) Tj ET
+BT /F1 9.00 Tf 141.52 648.59 Td (Nextflow) Tj ET
+BT /F1 9.00 Tf 178.52 648.59 Td (\(DSL2\),) Tj ET
+BT /F1 9.00 Tf 212.03 648.59 Td (Snakemake,) Tj ET
+BT /F1 9.00 Tf 264.56 648.59 Td (Conda,) Tj ET
+BT /F1 9.00 Tf 296.07 648.59 Td (Docker,) Tj ET
+BT /F1 9.00 Tf 329.58 648.59 Td (Git,) Tj ET
+BT /F1 9.00 Tf 346.09 648.59 Td (GitHub) Tj ET
+BT /F1 9.00 Tf 376.60 648.59 Td (Actions) Tj ET
+BT /F1 9.00 Tf 408.61 648.59 Td (CI/CD,) Tj ET
+BT /F1 9.00 Tf 438.11 648.59 Td (pytest,) Tj ET
+BT /F1 9.00 Tf 467.13 648.59 Td (Linux) Tj ET
+BT /F1 9.00 Tf 491.14 648.59 Td (command) Tj ET
+BT /F1 9.00 Tf 45.00 637.99 Td (line,) Tj ET
+BT /F1 9.00 Tf 64.01 637.99 Td (HPC) Tj ET
+BT /F1 9.00 Tf 85.51 637.99 Td (batch) Tj ET
+BT /F1 9.00 Tf 110.02 637.99 Td (workflows) Tj ET
+BT /F2 9.00 Tf 45.00 627.39 Td (Python) Tj ET
+BT /F2 9.00 Tf 78.00 627.39 Td (Stack:) Tj ET
+BT /F1 9.00 Tf 107.51 627.39 Td (pandas,) Tj ET
+BT /F1 9.00 Tf 142.04 627.39 Td (NumPy,) Tj ET
+BT /F1 9.00 Tf 176.54 627.39 Td (SciPy,) Tj ET
+BT /F1 9.00 Tf 204.55 627.39 Td (statsmodels,) Tj ET
+BT /F1 9.00 Tf 257.57 627.39 Td (scikit-learn,) Tj ET
+BT /F1 9.00 Tf 305.58 627.39 Td (XGBoost,) Tj ET
+BT /F1 9.00 Tf 346.60 627.39 Td (RDKit,) Tj ET
+BT /F1 9.00 Tf 375.10 627.39 Td (Biopython,) Tj ET
+BT /F1 9.00 Tf 420.13 627.39 Td (Scanpy,) Tj ET
+BT /F1 9.00 Tf 455.15 627.39 Td (AnnData,) Tj ET
+BT /F1 9.00 Tf 495.17 627.39 Td (matplotlib,) Tj ET
+BT /F1 9.00 Tf 45.00 616.79 Td (seaborn) Tj ET
+BT /F2 9.00 Tf 45.00 606.19 Td (R) Tj ET
+BT /F2 9.00 Tf 54.00 606.19 Td (/) Tj ET
+BT /F2 9.00 Tf 59.00 606.19 Td (Bioconductor:) Tj ET
+BT /F1 9.00 Tf 123.00 606.19 Td (DESeq2,) Tj ET
+BT /F1 9.00 Tf 161.52 606.19 Td (apeglm,) Tj ET
+BT /F1 9.00 Tf 196.04 606.19 Td (fgsea,) Tj ET
+BT /F1 9.00 Tf 223.06 606.19 Td (Bioconductor,) Tj ET
+BT /F1 9.00 Tf 280.58 606.19 Td (tidyverse,) Tj ET
+BT /F1 9.00 Tf 321.60 606.19 Td (testthat) Tj ET
+BT /F2 9.00 Tf 45.00 595.59 Td (Computational) Tj ET
+BT /F2 9.00 Tf 110.50 595.59 Td (Drug) Tj ET
+BT /F2 9.00 Tf 134.00 595.59 Td (Discovery:) Tj ET
+BT /F1 9.00 Tf 182.52 595.59 Td (in) Tj ET
+BT /F1 9.00 Tf 192.02 595.59 Td (silico) Tj ET
+BT /F1 9.00 Tf 214.52 595.59 Td (screening,) Tj ET
+BT /F1 9.00 Tf 258.54 595.59 Td (QSAR) Tj ET
+BT /F1 9.00 Tf 286.55 595.59 Td (modelling,) Tj ET
+BT /F1 9.00 Tf 330.07 595.59 Td (RDKit) Tj ET
+BT /F1 9.00 Tf 356.07 595.59 Td (descriptors) Tj ET
+BT /F1 9.00 Tf 402.58 595.59 Td (and) Tj ET
+BT /F1 9.00 Tf 420.09 595.59 Td (Morgan) Tj ET
+BT /F1 9.00 Tf 453.10 595.59 Td (fingerprints,) Tj ET
+BT /F1 9.00 Tf 45.00 584.99 Td (Bemis-Murcko) Tj ET
+BT /F1 9.00 Tf 105.00 584.99 Td (scaffold) Tj ET
+BT /F1 9.00 Tf 138.52 584.99 Td (splitting,) Tj ET
+BT /F1 9.00 Tf 174.03 584.99 Td (AutoDock) Tj ET
+BT /F1 9.00 Tf 215.55 584.99 Td (Vina,) Tj ET
+BT /F1 9.00 Tf 238.56 584.99 Td (DiffDock,) Tj ET
+BT /F1 9.00 Tf 277.57 584.99 Td (Open) Tj ET
+BT /F1 9.00 Tf 302.09 584.99 Td (Babel,) Tj ET
+BT /F1 9.00 Tf 330.10 584.99 Td (redocking) Tj ET
+BT /F1 9.00 Tf 371.62 584.99 Td (validation,) Tj ET
+BT /F1 9.00 Tf 414.64 584.99 Td (virtual) Tj ET
+BT /F1 9.00 Tf 441.14 584.99 Td (screening,) Tj ET
+BT /F1 9.00 Tf 485.16 584.99 Td (applicability) Tj ET
+BT /F1 9.00 Tf 45.00 574.39 Td (domain,) Tj ET
+BT /F1 9.00 Tf 79.52 574.39 Td (ChEMBL) Tj ET
+BT /F1 9.00 Tf 118.03 574.39 Td (curation) Tj ET
+BT /F2 9.00 Tf 45.00 563.79 Td (Omics) Tj ET
+BT /F2 9.00 Tf 75.02 563.79 Td (Analysis:) Tj ET
+BT /F1 9.00 Tf 117.53 563.79 Td (bulk) Tj ET
+BT /F1 9.00 Tf 136.54 563.79 Td (RNA-seq) Tj ET
+BT /F1 9.00 Tf 175.55 563.79 Td (differential) Tj ET
+BT /F1 9.00 Tf 219.56 563.79 Td (expression,) Tj ET
+BT /F1 9.00 Tf 268.08 563.79 Td (10x) Tj ET
+BT /F1 9.00 Tf 285.09 563.79 Td (single-cell) Tj ET
+BT /F1 9.00 Tf 327.60 563.79 Td (RNA-seq,) Tj ET
+BT /F1 9.00 Tf 369.11 563.79 Td (Leiden) Tj ET
+BT /F1 9.00 Tf 398.63 563.79 Td (clustering,) Tj ET
+BT /F1 9.00 Tf 442.14 563.79 Td (marker-based) Tj ET
+BT /F1 9.00 Tf 500.16 563.79 Td (cell-type) Tj ET
+BT /F1 9.00 Tf 45.00 553.19 Td (annotation,) Tj ET
+BT /F1 9.00 Tf 92.03 553.19 Td (clinical) Tj ET
+BT /F1 9.00 Tf 121.54 553.19 Td (variant) Tj ET
+BT /F1 9.00 Tf 151.05 553.19 Td (interpretation,) Tj ET
+BT /F1 9.00 Tf 208.57 553.19 Td (conserved-domain) Tj ET
+BT /F1 9.00 Tf 285.10 553.19 Td (burden) Tj ET
+BT /F1 9.00 Tf 315.62 553.19 Td (analysis,) Tj ET
+BT /F1 9.00 Tf 353.13 553.19 Td (16S) Tj ET
+BT /F1 9.00 Tf 371.65 553.19 Td (rRNA) Tj ET
+BT /F1 9.00 Tf 396.14 553.19 Td (amplicon) Tj ET
+BT /F1 9.00 Tf 434.65 553.19 Td (analysis,) Tj ET
+BT /F1 9.00 Tf 472.17 553.19 Td (alpha) Tj ET
+BT /F1 9.00 Tf 496.68 553.19 Td (and) Tj ET
+BT /F1 9.00 Tf 514.20 553.19 Td (beta) Tj ET
+BT /F1 9.00 Tf 45.00 542.59 Td (diversity,) Tj ET
+BT /F1 9.00 Tf 83.01 542.59 Td (pathway) Tj ET
+BT /F1 9.00 Tf 119.03 542.59 Td (enrichment) Tj ET
+BT /F1 9.00 Tf 166.04 542.59 Td (\(Reactome,) Tj ET
+BT /F1 9.00 Tf 215.06 542.59 Td (GSEA\),) Tj ET
+BT /F1 9.00 Tf 248.07 542.59 Td (multiple) Tj ET
+BT /F1 9.00 Tf 281.57 542.59 Td (sequence) Tj ET
+BT /F1 9.00 Tf 323.10 542.59 Td (alignment) Tj ET
+BT /F1 9.00 Tf 364.62 542.59 Td (and) Tj ET
+BT /F1 9.00 Tf 382.13 542.59 Td (phylogenetics) Tj ET
+BT /F2 9.00 Tf 45.00 531.99 Td (Statistics) Tj ET
+BT /F2 9.00 Tf 87.52 531.99 Td (&) Tj ET
+BT /F2 9.00 Tf 96.52 531.99 Td (ML:) Tj ET
+BT /F1 9.00 Tf 115.01 531.99 Td (negative) Tj ET
+BT /F1 9.00 Tf 151.53 531.99 Td (binomial) Tj ET
+BT /F1 9.00 Tf 187.54 531.99 Td (models,) Tj ET
+BT /F1 9.00 Tf 221.55 531.99 Td (hypergeometric) Tj ET
+BT /F1 9.00 Tf 286.07 531.99 Td (over-representation,) Tj ET
+BT /F1 9.00 Tf 369.11 531.99 Td (Benjamini-Hochberg) Tj ET
+BT /F1 9.00 Tf 453.13 531.99 Td (FDR) Tj ET
+BT /F1 9.00 Tf 474.13 531.99 Td (control,) Tj ET
+BT /F1 9.00 Tf 45.00 521.39 Td (permutation) Tj ET
+BT /F1 9.00 Tf 95.02 521.39 Td (and) Tj ET
+BT /F1 9.00 Tf 112.54 521.39 Td (label-shuffling) Tj ET
+BT /F1 9.00 Tf 170.56 521.39 Td (controls,) Tj ET
+BT /F1 9.00 Tf 207.07 521.39 Td (bootstrap) Tj ET
+BT /F1 9.00 Tf 247.09 521.39 Td (confidence) Tj ET
+BT /F1 9.00 Tf 293.12 521.39 Td (intervals,) Tj ET
+BT /F1 9.00 Tf 331.63 521.39 Td (Mann-Whitney) Tj ET
+BT /F1 9.00 Tf 392.15 521.39 Td (U,) Tj ET
+BT /F1 9.00 Tf 403.65 521.39 Td (PERMANOVA,) Tj ET
+BT /F1 9.00 Tf 466.16 521.39 Td (cross-validation) Tj ET
+BT /F1 9.00 Tf 45.00 510.79 Td (design) Tj ET
+BT /F1 9.00 Tf 74.02 510.79 Td (and) Tj ET
+BT /F1 9.00 Tf 91.53 510.79 Td (leakage) Tj ET
+BT /F1 9.00 Tf 125.55 510.79 Td (control,) Tj ET
+BT /F1 9.00 Tf 157.56 510.79 Td (scaffold) Tj ET
+BT /F1 9.00 Tf 191.08 510.79 Td (versus) Tj ET
+BT /F1 9.00 Tf 220.09 510.79 Td (random) Tj ET
+BT /F1 9.00 Tf 253.10 510.79 Td (split) Tj ET
+BT /F1 9.00 Tf 271.60 510.79 Td (design,) Tj ET
+BT /F1 9.00 Tf 303.12 510.79 Td (statistical) Tj ET
+BT /F1 9.00 Tf 342.63 510.79 Td (power) Tj ET
+BT /F1 9.00 Tf 369.64 510.79 Td (and) Tj ET
+BT /F1 9.00 Tf 387.15 510.79 Td (detectability) Tj ET
+BT /F1 9.00 Tf 437.18 510.79 Td (limits) Tj ET
+BT /F2 9.00 Tf 45.00 500.19 Td (Bioinformatics) Tj ET
+BT /F2 9.00 Tf 110.51 500.19 Td (Tools:) Tj ET
+BT /F1 9.00 Tf 140.01 500.19 Td (fastp,) Tj ET
+BT /F1 9.00 Tf 164.53 500.19 Td (FastQC,) Tj ET
+BT /F1 9.00 Tf 200.54 500.19 Td (MultiQC,) Tj ET
+BT /F1 9.00 Tf 238.04 500.19 Td (HISAT2,) Tj ET
+BT /F1 9.00 Tf 274.55 500.19 Td (featureCounts,) Tj ET
+BT /F1 9.00 Tf 336.09 500.19 Td (samtools,) Tj ET
+BT /F1 9.00 Tf 377.10 500.19 Td (MAFFT,) Tj ET
+BT /F1 9.00 Tf 412.10 500.19 Td (IQ-TREE,) Tj ET
+BT /F1 9.00 Tf 453.61 500.19 Td (BLAST,) Tj ET
+BT /F1 9.00 Tf 487.13 500.19 Td (SRA-Toolkit,) Tj ET
+BT /F1 9.00 Tf 45.00 489.59 Td (NCBI) Tj ET
+BT /F1 9.00 Tf 69.00 489.59 Td (E-utilities) Tj ET
+BT /F2 9.00 Tf 45.00 478.99 Td (Databases) Tj ET
+BT /F2 9.00 Tf 92.52 478.99 Td (&) Tj ET
+BT /F2 9.00 Tf 101.52 478.99 Td (Resources:) Tj ET
+BT /F1 9.00 Tf 153.04 478.99 Td (GEO,) Tj ET
+BT /F1 9.00 Tf 178.05 478.99 Td (SRA,) Tj ET
+BT /F1 9.00 Tf 201.56 478.99 Td (ENA,) Tj ET
+BT /F1 9.00 Tf 225.06 478.99 Td (ChEMBL,) Tj ET
+BT /F1 9.00 Tf 266.08 478.99 Td (ClinVar,) Tj ET
+BT /F1 9.00 Tf 300.58 478.99 Td (NCBI) Tj ET
+BT /F1 9.00 Tf 324.58 478.99 Td (RefSeq,) Tj ET
+BT /F1 9.00 Tf 359.60 478.99 Td (CDD,) Tj ET
+BT /F1 9.00 Tf 384.10 478.99 Td (Ensembl) Tj ET
+BT /F1 9.00 Tf 421.61 478.99 Td (GRCh38,) Tj ET
+BT /F1 9.00 Tf 461.63 478.99 Td (UniProt,) Tj ET
+BT /F1 9.00 Tf 496.64 478.99 Td (RCSB) Tj ET
+BT /F1 9.00 Tf 524.14 478.99 Td (PDB,) Tj ET
+BT /F1 9.00 Tf 45.00 468.39 Td (Reactome) Tj ET
+BT /F2 9.00 Tf 45.00 457.79 Td (File) Tj ET
+BT /F2 9.00 Tf 63.01 457.79 Td (Formats:) Tj ET
+BT /F1 9.00 Tf 104.01 457.79 Td (FASTA,) Tj ET
+BT /F1 9.00 Tf 138.02 457.79 Td (FASTQ,) Tj ET
+BT /F1 9.00 Tf 173.03 457.79 Td (VCF,) Tj ET
+BT /F1 9.00 Tf 196.04 457.79 Td (BAM,) Tj ET
+BT /F1 9.00 Tf 220.54 457.79 Td (PDB/PDBQT,) Tj ET
+BT /F1 9.00 Tf 277.56 457.79 Td (SMILES,) Tj ET
+BT /F1 9.00 Tf 315.58 457.79 Td (HDF5/AnnData) Tj ET
+BT /F2 9.00 Tf 45.00 447.19 Td (Compute:) Tj ET
+BT /F1 9.00 Tf 89.50 447.19 Td (AWS,) Tj ET
+BT /F1 9.00 Tf 115.00 447.19 Td (GCP,) Tj ET
+BT /F1 9.00 Tf 139.51 447.19 Td (Galaxy) Tj ET
+BT /F1 9.00 Tf 170.02 447.19 Td (platform) Tj ET
+BT /F2 10.20 Tf 45.00 432.39 Td (PROJECTS) Tj ET
+45 429.39 m 550.28 429.39 l 0.6 w S
+BT /F2 9.60 Tf 45.00 414.89 Td (Ligand- and Structure-Based Screening for M. tuberculosis InhA - github.com/TilakSharma07/inha-tb) Tj ET
+BT /F3 8.60 Tf 45.00 404.69 Td (Python | RDKit | XGBoost | AutoDock Vina | pytest | GitHub Actions CI) Tj ET
+BT /F1 9.00 Tf 55.00 393.89 Td (- Curated 2,107 ChEMBL activity records into 1,417 unique molecules across an enzyme and a whole-cell endpoint, then) Tj ET
+BT /F1 9.00 Tf 55.00 383.19 Td (measured what scaffold splitting costs against random splitting: ROC-AUC falls 0.921 to 0.837 on InhA and 0.911 to 0.841) Tj ET
+BT /F1 9.00 Tf 55.00 372.49 Td (whole-cell, a median inflation of 0.08 \(range 0.069 to 0.119\) positive in all 6 model-endpoint combinations.) Tj ET
+BT /F1 9.00 Tf 55.00 361.79 Td (- Validated the docking protocol before trusting it \(crystal ligand redocked to 0.23 Angstrom RMSD\), screened a) Tj ET
+BT /F1 9.00 Tf 55.00 351.09 Td (647-compound library, and reported the negative: docking ranked actives at ROC-AUC 0.651 against the ligand-based) Tj ET
+BT /F1 9.00 Tf 55.00 340.39 Td (model's 0.834 on the same held-out compounds, Spearman rho -0.184 over 640 molecules.) Tj ET
+BT /F1 9.00 Tf 55.00 329.69 Td (- Traced a reproducibility failure to its cause: the pipeline is bit-identical inside a locked environment but drifts up to 0.047) Tj ET
+BT /F1 9.00 Tf 55.00 318.99 Td (MCC across CPython versions on identical library versions, while perturbing 1,678 model-input cells by 4.6e-13 moved no) Tj ET
+BT /F1 9.00 Tf 55.00 308.29 Td (metric at all, ruling out numerical amplification and establishing version pins, not tolerances, as the fix.) Tj ET
+BT /F2 9.60 Tf 45.00 295.49 Td (Conserved-Domain Burden of ClinVar Missense Variants - github.com/TilakSharma07/protein-domain-burden) Tj ET
+BT /F3 8.60 Tf 45.00 285.29 Td (Python | SciPy | NCBI E-utilities | pytest | GitHub Actions CI) Tj ET
+BT /F1 9.00 Tf 55.00 274.49 Td (- Mapped 23,264 ClinVar missense variants across 60 clinically interpreted genes onto CDD conserved domains parsed) Tj ET
+BT /F1 9.00 Tf 55.00 263.79 Td (from matching RefSeq protein records, testing each domain against its own gene's background: 62 of 174 domains enriched) Tj ET
+BT /F1 9.00 Tf 55.00 253.09 Td (for pathogenic missense \(hypergeometric, Benjamini-Hochberg\).) Tj ET
+BT /F1 9.00 Tf 55.00 242.39 Td (- Established the finding as directional rather than an artefact of reporting density using two controls: a 200-iteration) Tj ET
+BT /F1 9.00 Tf 55.00 231.69 Td (withingene label permutation \(null mean 0.005 significant domains, empirical p = 0.005\) and a symmetric benign) Tj ET
+BT /F1 9.00 Tf 55.00 220.99 Td (counter-test returning 28 benign-enriched domains with zero overlap against the pathogenic set.) Tj ET
+BT /F1 9.00 Tf 55.00 210.29 Td (- Verified transcript-to-protein coordinate mapping before any analysis, 23,264 of 23,264 parsed reference residues) Tj ET
+BT /F1 9.00 Tf 55.00 199.59 Td (matching the fetched sequences, with the pipeline exiting rather than continuing on a mismatch; cut the permutation control) Tj ET
+BT /F1 9.00 Tf 55.00 188.89 Td (from 92 minutes to 1.6 by caching domain assignment, guarded by a test that fails if the cache leaks observed labels into) Tj ET
+BT /F1 9.00 Tf 55.00 178.19 Td (the null; 80 offline tests on Python 3.10 and 3.12.) Tj ET
+BT /F2 9.60 Tf 45.00 165.39 Td (Nextflow DSL2 FASTQ Quality Control with a Validation Gate - github.com/TilakSharma07/nf-fastq-qc) Tj ET
+BT /F3 8.60 Tf 45.00 155.19 Td (Nextflow DSL2 | Python | pytest | GitHub Actions CI) Tj ET
+BT /F1 9.00 Tf 55.00 144.39 Td (- Built a six-process Nextflow DSL2 workflow taking a samplesheet of short-read FASTQ files through quality control,) Tj ET
+BT /F1 9.00 Tf 55.00 133.69 Td (adapter removal and quality trimming to per-sample and aggregate metrics; trimming raised Q30 by 15.5 to 27.8 points at) Tj ET
+BT /F1 9.00 Tf 55.00 122.99 Td (100 percent read retention.) Tj ET
+BT /F1 9.00 Tf 55.00 112.29 Td (- Added a hard validation gate asserting quality control invariants \(no read or base creation, no quality regression, a Q30) Tj ET
+BT /F1 9.00 Tf 55.00 101.59 Td (percentage floor, log-to-metrics reconciliation\) that exits non-zero on violation, so no report is produced from a bad run; 42) Tj ET
+BT /F1 9.00 Tf 55.00 90.89 Td (unit tests, with CI verifying both that the pipeline passes on correct parameters and that the gate fires on loose ones.) Tj ET
+BT /F2 9.60 Tf 45.00 78.09 Td (Composition Bias in Mammary RNA-Seq: A Result That Survives Its Own Stress Test -) Tj ET
+BT /F2 9.60 Tf 45.00 66.89 Td (github.com/TilakSharma07/rnaseq-de-GSE60450) Tj ET
+BT /F3 8.60 Tf 45.00 56.69 Td (R | DESeq2 | fgsea | Bioconductor | testthat | Docker | GitHub Actions CI) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 7727 >>
+stream
+BT /F1 9.00 Tf 55.00 784.89 Td (- Analysed 12 bulk RNA-seq libraries from GEO series GSE60450 \(2 mammary cell types x 3 developmental stages\) with) Tj ET
+BT /F1 9.00 Tf 55.00 774.19 Td (DESeq2 on a group design, recovering 7,453 differentially expressed genes of 16,037 tested at 5 percent FDR and 3,046 at) Tj ET
+BT /F1 9.00 Tf 55.00 763.49 Td (absolute shrunken log2 fold change above 1 for the lactating vs pregnant, luminal contrast.) Tj ET
+BT /F1 9.00 Tf 55.00 752.79 Td (- Identified a composition-bias risk that most pipelines report without testing: the two lactating libraries hold 54.0 and 53.0) Tj ET
+BT /F1 9.00 Tf 55.00 742.09 Td (percent of their reads in 17 milk-protein and secretory genes \(40.0 and 39.2 percent in the caseins and whey alone\), so an) Tj ET
+BT /F1 9.00 Tf 55.00 731.39 Td (apparent enrichment of ribosome and translation pathways could be a normalisation artefact rather than biology.) Tj ET
+BT /F1 9.00 Tf 55.00 720.69 Td (- Falsified that artefact explanation by refitting the whole model after excluding those genes by gene family rather than by) Tj ET
+BT /F1 9.00 Tf 55.00 709.99 Td (abundance, so the exclusion set does not depend on the libraries under test: 15 of 16 translation gene sets stayed) Tj ET
+BT /F1 9.00 Tf 55.00 699.29 Td (significant with a maximum normalised enrichment score shift of 0.03 across 717 pathways, and none dropped out.) Tj ET
+BT /F2 9.60 Tf 45.00 686.49 Td (Single-Cell PBMC Atlas across Three Donor Groups - github.com/TilakSharma07/scRNAseq-PBMC-Analysis) Tj ET
+BT /F3 8.60 Tf 45.00 676.29 Td (Python | Scanpy | AnnData | pytest) Tj ET
+BT /F1 9.00 Tf 55.00 665.49 Td (- Processed 10x single-cell RNA-seq from 20 donors \(GSE149689\) through a Scanpy pipeline using data-driven median) Tj ET
+BT /F1 9.00 Tf 55.00 654.79 Td (absolute deviation quality control that retained 11,114 of 15,738 cells, Leiden clustering and marker-score annotation,) Tj ET
+BT /F1 9.00 Tf 55.00 644.09 Td (resolving 16 clusters into 9 cell types with per-cluster confidence margins published so borderline assignments are) Tj ET
+BT /F1 9.00 Tf 55.00 633.39 Td (auditable.) Tj ET
+BT /F1 9.00 Tf 55.00 622.69 Td (- Tested composition shifts at donor level rather than cell level with Mann-Whitney U and Benjamini-Hochberg correction,) Tj ET
+BT /F1 9.00 Tf 55.00 611.99 Td (detecting platelet elevation and plasmacytoid dendritic cell depletion in COVID-19 donors; 16 tests, seeded clustering for) Tj ET
+BT /F1 9.00 Tf 55.00 601.29 Td (exact figure reproduction.) Tj ET
+BT /F2 10.20 Tf 45.00 586.39 Td (EXPERIENCE) Tj ET
+45 583.39 m 550.28 583.39 l 0.6 w S
+BT /F2 9.60 Tf 45.00 568.89 Td (Bioinformatics / Data Analyst Intern - TMS Foundation \(Bharat Yuva\), Remote) Tj ET
+BT /F3 8.60 Tf 45.00 558.69 Td (June 2026 - Present) Tj ET
+BT /F1 9.00 Tf 55.00 547.89 Td (- Surveyed Galaxy platform adoption across Indian research institutions, tracking 4,300+ users to inform platform) Tj ET
+BT /F1 9.00 Tf 55.00 537.19 Td (localisation strategy.) Tj ET
+BT /F1 9.00 Tf 55.00 526.49 Td (- Built and ran cloud-based analysis workflows on AWS and GCP, managing compute and storage for multi-terabyte) Tj ET
+BT /F1 9.00 Tf 55.00 515.79 Td (sequencing datasets, and packaged them with Nextflow and Docker so analyses rerun reproducibly across machines.) Tj ET
+BT /F1 9.00 Tf 55.00 505.09 Td (- Catalogued institutional research focus areas using Zotero and the Galaxy Community Hub, producing a structured) Tj ET
+BT /F1 9.00 Tf 55.00 494.39 Td (reference set for community reporting.) Tj ET
+BT /F2 9.60 Tf 45.00 481.59 Td (Open Source Contributor - nf-core, Galaxy Training Network, EDAM Ontology) Tj ET
+BT /F3 8.60 Tf 45.00 471.39 Td (September 2026) Tj ET
+BT /F1 9.00 Tf 55.00 460.59 Td (- Audited the tooling that annotates bioinformatics workflow metadata and filed three defects, each a check that reports) Tj ET
+BT /F1 9.00 Tf 55.00 449.89 Td (clean because it can never fire: nf-core's EDAM lookup is built from one property and holds 67 extension keys, so it writes) Tj ET
+BT /F1 9.00 Tf 55.00 439.19 Td (an empty annotation where a term exists; the Galaxy citation linter GTN:004 has a doubled slash in its regex and matches 0) Tj ET
+BT /F1 9.00 Tf 55.00 428.49 Td (links; and EDAM records a file extension for only 61 of 612 live format concepts, which is the root cause of the first.) Tj ET
+BT /F1 9.00 Tf 55.00 417.79 Td (- Measured each defect over the projects' own corpora before proposing a fix: widening the nf-core lookup to labels and) Tj ET
+BT /F1 9.00 Tf 55.00 407.09 Td (synonyms takes it from 67 to 798 keys and recovers 513 channel elements across 184 modules; the Galaxy regex misses) Tj ET
+BT /F1 9.00 Tf 55.00 396.39 Td (47 legacy-host and 3 modern-host PubMed links across 23 of 547 tutorials.) Tj ET
+BT /F1 9.00 Tf 55.00 385.69 Td (- Sourced 6 proposed EDAM extension values from what module authors independently hand-wrote rather than from) Tj ET
+BT /F1 9.00 Tf 55.00 374.99 Td (assertion, counting only the 184 elements pairing exactly one extension with exactly one term; the method reproduces) Tj ET
+BT /F1 9.00 Tf 55.00 364.29 Td (EDAM's own curation on every extension it already records.) Tj ET
+BT /F1 9.00 Tf 55.00 353.59 Td (- Traced author disagreement to ontology gaps rather than carelessness: 74 tabix-index elements carry no annotation) Tj ET
+BT /F1 9.00 Tf 55.00 342.89 Td (because EDAM holds two competing non-obsolete concepts for the same artefact, and 51 FASTA-index elements are) Tj ET
+BT /F1 9.00 Tf 55.00 332.19 Td (annotated three different ways because no concept exists, one of them pointing at the BAM index term under a comment) Tj ET
+BT /F1 9.00 Tf 55.00 321.49 Td (reading FASTA index.) Tj ET
+BT /F1 9.00 Tf 55.00 310.79 Td (- Shipped each finding with a patch, a regression suite \(12 pytest, 16 Ruby\) and a script reproducing every number quoted,) Tj ET
+BT /F1 9.00 Tf 55.00 300.09 Td (after first correcting my own earlier conclusion that the index-file cases were a design question rather than a defect.) Tj ET
+BT /F2 9.60 Tf 45.00 287.29 Td (Open Source Contributor - Galaxy Project) Tj ET
+BT /F3 8.60 Tf 45.00 277.09 Td (June 2026 - August 2026) Tj ET
+BT /F1 9.00 Tf 55.00 266.29 Td (- Contributed a fix to the Galaxy core repository for Issue #14275, tracing two concurrent loading animations to the Vue.js) Tj ET
+BT /F1 9.00 Tf 55.00 255.59 Td (LoadingSpan component and replacing the animated ellipsis with static text so a single indicator remains; merged into the) Tj ET
+BT /F1 9.00 Tf 55.00 244.89 Td (dev branch as pull request #23338, closing the issue.) Tj ET
+BT /F1 9.00 Tf 55.00 234.19 Td (- Audited all 17 call sites referencing the affected markup before opening the change, confirming no test or snapshot asserts) Tj ET
+BT /F1 9.00 Tf 55.00 223.49 Td (the removed text, and preserved both the Selenium selector attribute and the shared CSS class used by two other) Tj ET
+BT /F1 9.00 Tf 55.00 212.79 Td (components, a design the maintainer proposed on review and approved before merge.) Tj ET
+BT /F2 10.20 Tf 45.00 197.89 Td (EDUCATION) Tj ET
+45 194.89 m 550.28 194.89 l 0.6 w S
+BT /F1 9.00 Tf 55.00 182.49 Td (- M.Sc. Botany, University of Kota, 2025 - 8.28/10 CGPA.) Tj ET
+BT /F1 9.00 Tf 55.00 171.79 Td (- B.Sc. Biology, University of Kota, 2021 - 65.40 percent.) Tj ET
+BT /F2 10.20 Tf 45.00 156.89 Td (CERTIFICATIONS) Tj ET
+45 153.89 m 550.28 153.89 l 0.6 w S
+BT /F1 9.00 Tf 55.00 141.49 Td (- Galaxy Training Academy 2026 - six tracks, 51 tutorials) Tj ET
+BT /F1 9.00 Tf 55.00 130.79 Td (- Reliance Foundation Skilling Academy, 2026 - Bioinformatics; Genetics; Plant Breeding; Data Science.) Tj ET
+BT /F1 9.00 Tf 55.00 120.09 Td (- AI in Pharma - Life Sciences Sector Skill Development Council, 2026.) Tj ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000425 00000 n 
+0000000577 00000 n 
+0000015825 00000 n 
+0000015977 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+23756
+%%EOF

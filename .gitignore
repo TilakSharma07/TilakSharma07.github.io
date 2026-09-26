@@ -1,0 +1,9 @@
+# working copies
+index.html.bak-*
+
+# local development tooling: reads fact sources by absolute path under $HOME,
+# so it is not meaningful outside this machine
+check_site.py
+
+# internal verification notes
+NOTES.internal.md
